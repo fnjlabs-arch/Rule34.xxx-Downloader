@@ -1,4 +1,4 @@
-﻿namespace R34Downloader.Forms
+﻿namespace SadShaR34Downloader.Forms
 {
     partial class SettingsForm
     {

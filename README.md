@@ -1,11 +1,11 @@
-# Rule34.xxx Downloader
+# SadSha R34 Downloader
 
-[![Latest release](https://img.shields.io/github/v/release/DaxEleven/Rule34.xxx-Downloader?sort=semver&label=release&color=2ea44f)](https://github.com/DaxEleven/Rule34.xxx-Downloader/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/DaxEleven/Rule34.xxx-Downloader/total?label=downloads&color=0078D4)](https://github.com/DaxEleven/Rule34.xxx-Downloader/releases)
+[![Latest release](https://img.shields.io/github/v/release/fnjlabs-arch/Rule34.xxx-Downloader?sort=semver&label=release&color=2ea44f)](https://github.com/fnjlabs-arch/Rule34.xxx-Downloader/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/fnjlabs-arch/Rule34.xxx-Downloader/total?label=downloads&color=0078D4)](https://github.com/fnjlabs-arch/Rule34.xxx-Downloader/releases)
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8.1-512BD4)](https://dotnet.microsoft.com/download/dotnet-framework/net481)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-0078D4)](https://www.microsoft.com/windows)
-[![Portable](https://img.shields.io/badge/portable-single%20exe-e07b39)](https://github.com/DaxEleven/Rule34.xxx-Downloader/releases/latest)
-[![License](https://img.shields.io/github/license/DaxEleven/Rule34.xxx-Downloader?label=license&color=2ea44f)](https://github.com/DaxEleven/Rule34.xxx-Downloader/blob/master/LICENSE)
+[![Portable](https://img.shields.io/badge/portable-single%20exe-e07b39)](https://github.com/fnjlabs-arch/Rule34.xxx-Downloader/releases/latest)
+[![License](https://img.shields.io/github/license/fnjlabs-arch/Rule34.xxx-Downloader?label=license&color=2ea44f)](https://github.com/fnjlabs-arch/Rule34.xxx-Downloader/blob/master/LICENSE)
 
 A portable Windows application for downloading images, GIFs and videos from [rule34.xxx](https://rule34.xxx). You enter tags the same way you do on the site, choose a folder and the number of files, and the application downloads everything for you.
 
@@ -17,9 +17,9 @@ The application works through the official [rule34.xxx API](https://api.rule34.x
 
 ## Download
 
-Download [R34Downloader.exe](https://github.com/DaxEleven/Rule34.xxx-Downloader/releases/latest) from the latest release and run it.
+Download [SadShaR34Downloader.exe](https://github.com/fnjlabs-arch/Rule34.xxx-Downloader/releases/latest) from the latest release and run it.
 
-The settings are written to `R34Downloader.settings.xml` next to the executable, so the application can be moved together with its settings, for example on a USB stick. If the program folder is not writable, the file is created in `%LOCALAPPDATA%\Rule34.xxx Downloader` instead. Settings of version 1.0.x are migrated automatically.
+The settings are written to `SadShaR34Downloader.settings.xml` next to the executable, so the application can be moved together with its settings, for example on a USB stick. If the program folder is not writable, the file is created in `%LOCALAPPDATA%\SadSha R34 Downloader` instead. Settings of version 1.0.x are migrated automatically.
 
 ## Getting an API key
 
@@ -32,10 +32,10 @@ The same can be done from the command line, which is useful for scripts:
 
 ```powershell
 # The line copied from the account options page
-R34Downloader.exe --set-credentials "&api_key=YOUR_API_KEY&user_id=YOUR_USER_ID"
+SadShaR34Downloader.exe --set-credentials "&api_key=YOUR_API_KEY&user_id=YOUR_USER_ID"
 
 # Check the saved key
-R34Downloader.exe --test-key
+SadShaR34Downloader.exe --test-key
 ```
 
 Keep in mind:

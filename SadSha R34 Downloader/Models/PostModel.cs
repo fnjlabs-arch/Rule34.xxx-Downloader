@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace R34Downloader.Models
+namespace SadShaR34Downloader.Models
 {
     /// <summary>
     /// rule34.xxx post DTO.

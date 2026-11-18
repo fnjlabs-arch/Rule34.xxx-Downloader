@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Rule34.xxx Downloader")]
+[assembly: AssemblyTitle("SadSha R34 Downloader")]
 [assembly: AssemblyDescription("An application for downloading images, GIFs and videos from rule34.xxx.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Dax Eleven")]
-[assembly: AssemblyProduct("Rule34.xxx Downloader")]
+[assembly: AssemblyCompany("SadSha")]
+[assembly: AssemblyProduct("SadSha R34 Downloader")]
 [assembly: AssemblyCopyright("Copyright © 2017 Dax Eleven")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

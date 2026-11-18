@@ -4,13 +4,13 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
 
-namespace R34Downloader.Services
+namespace SadShaR34Downloader.Services
 {
     /// <summary>
     /// Stores the application settings in a single XML file next to the executable,
     /// so the application stays portable: no installer, no registry and no profile folders.
     /// If the application folder is read-only (for example, Program Files),
-    /// %LOCALAPPDATA%\Rule34.xxx Downloader is used instead.
+    /// %LOCALAPPDATA%\SadSha R34 Downloader is used instead.
     /// </summary>
     internal static class PortableSettings
     {
@@ -19,12 +19,12 @@ namespace R34Downloader.Services
         /// <summary>
         /// Name of the settings file.
         /// </summary>
-        private const string FileName = "R34Downloader.settings.xml";
+        private const string FileName = "SadShaR34Downloader.settings.xml";
 
         /// <summary>
         /// Folder in %LOCALAPPDATA% that is used when the application folder is read-only.
         /// </summary>
-        private const string FallbackFolderName = "Rule34.xxx Downloader";
+        private const string FallbackFolderName = "SadSha R34 Downloader";
 
         /// <summary>
         /// Company folder used by the previous versions of the application

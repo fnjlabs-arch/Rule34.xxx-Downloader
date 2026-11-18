@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace R34Downloader.Services
+namespace SadShaR34Downloader.Services
 {
     /// <summary>
     /// Exception that contains a user-friendly description of a rule34.xxx error.

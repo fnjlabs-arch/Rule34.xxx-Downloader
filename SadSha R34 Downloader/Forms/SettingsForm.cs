@@ -1,12 +1,12 @@
-﻿using R34Downloader.Models;
-using R34Downloader.Services;
+﻿using SadShaR34Downloader.Models;
+using SadShaR34Downloader.Services;
 using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace R34Downloader.Forms
+namespace SadShaR34Downloader.Forms
 {
     /// <summary>
     /// Settings form.

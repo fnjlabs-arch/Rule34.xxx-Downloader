@@ -1,4 +1,4 @@
-﻿namespace R34Downloader.Services
+﻿namespace SadShaR34Downloader.Services
 {
     /// <summary>
     /// Controls a running download. Stopping is cooperative: the file that is

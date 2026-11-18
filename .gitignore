@@ -429,8 +429,8 @@ FodyWeavers.xsd
 # ------------------------------------------------------------------------------
 
 # Portable settings created by the application at run time (may contain the API key)
-R34Downloader.settings.xml
-R34Downloader.settings.xml.tmp
+SadShaR34Downloader.settings.xml
+SadShaR34Downloader.settings.xml.tmp
 
 # Visual Studio Code workspace files (the project is edited in VS Code as well)
 .vscode/

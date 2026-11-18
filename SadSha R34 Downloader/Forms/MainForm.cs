@@ -1,5 +1,5 @@
-﻿using R34Downloader.Models;
-using R34Downloader.Services;
+﻿using SadShaR34Downloader.Models;
+using SadShaR34Downloader.Services;
 using System;
 using System.Diagnostics;
 using System.Net.Http;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace R34Downloader.Forms
+namespace SadShaR34Downloader.Forms
 {
     /// <summary>
     /// Main form.
@@ -269,7 +269,7 @@ namespace R34Downloader.Forms
                             "Author: Dax Eleven\n" +
                             "Copyright © 2017 Dax Eleven\n" +
                             $"Version: {version.Major}.{version.Minor}.{version.Build}",
-                "About Rule34.xxx Downloader",
+                "About SadSha R34 Downloader",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
         }
@@ -319,7 +319,7 @@ namespace R34Downloader.Forms
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) // Link to GitHub page
         {
-            Process.Start("https://github.com/DaxEleven/Rule34.xxx-Downloader");
+            Process.Start("https://github.com/fnjlabs-arch/Rule34.xxx-Downloader");
         }
 
         #endregion

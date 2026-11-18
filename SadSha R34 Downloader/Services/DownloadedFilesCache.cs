@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace R34Downloader.Services
+namespace SadShaR34Downloader.Services
 {
     /// <summary>
     /// In-memory cache of the files that already exist in the download folders.

@@ -1,4 +1,4 @@
-﻿namespace R34Downloader.Forms
+﻿namespace SadShaR34Downloader.Forms
 {
     partial class DownloadingForm
     {
@@ -168,7 +168,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::R34Downloader.Properties.Resources.r34chibi;
+            this.pictureBox1.Image = global::SadShaR34Downloader.Properties.Resources.r34chibi;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 160);
@@ -198,7 +198,7 @@
             this.MaximizeBox = false;
             this.Name = "DownloadingForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Rule34.xxx Downloader - Download Settings";
+            this.Text = "SadSha R34 Downloader - Download Settings";
             this.Load += new System.EventHandler(this.DownloadingForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

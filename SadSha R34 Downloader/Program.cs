@@ -1,13 +1,13 @@
-﻿using R34Downloader.Forms;
-using R34Downloader.Models;
-using R34Downloader.Services;
+﻿using SadShaR34Downloader.Forms;
+using SadShaR34Downloader.Models;
+using SadShaR34Downloader.Services;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace R34Downloader
+namespace SadShaR34Downloader
 {
     internal static class Program
     {
@@ -76,7 +76,7 @@ namespace R34Downloader
 
             if (args.Length != 2 || !SettingsModel.TryParseCredentials(args[1], out var userId, out var apiKey))
             {
-                Console.Error.WriteLine("Usage: R34Downloader.exe --set-credentials \"&api_key=...&user_id=...\"");
+                Console.Error.WriteLine("Usage: SadShaR34Downloader.exe --set-credentials \"&api_key=...&user_id=...\"");
                 Console.Error.WriteLine("Copy the line from https://rule34.xxx/index.php?page=account&s=options");
                 Environment.ExitCode = 2;
 
@@ -129,7 +129,7 @@ namespace R34Downloader
             var message = exception == null ? "Unknown error." : exception.Message;
 
             MessageBox.Show("An unexpected error occurred:\r\n\r\n" + message,
-                "Rule34.xxx Downloader",
+                "SadSha R34 Downloader",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
         }

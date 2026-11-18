@@ -4,7 +4,7 @@ using System.IO;
 using System.Net.Http;
 using System.Threading;
 
-namespace R34Downloader.Services
+namespace SadShaR34Downloader.Services
 {
     /// <summary>
     /// Download service. Files are streamed to disk, so large videos do not

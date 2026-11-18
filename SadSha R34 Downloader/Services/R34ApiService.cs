@@ -1,4 +1,4 @@
-﻿using R34Downloader.Models;
+﻿using SadShaR34Downloader.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace R34Downloader.Services
+namespace SadShaR34Downloader.Services
 {
     /// <summary>
     /// API parsing service.

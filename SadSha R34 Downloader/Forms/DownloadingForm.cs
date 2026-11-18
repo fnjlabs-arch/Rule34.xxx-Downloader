@@ -1,8 +1,8 @@
-﻿using R34Downloader.Models;
+﻿using SadShaR34Downloader.Models;
 using System;
 using System.Windows.Forms;
 
-namespace R34Downloader.Forms
+namespace SadShaR34Downloader.Forms
 {
     /// <summary>
     /// Downloading form.

@@ -1,4 +1,4 @@
-﻿namespace R34Downloader.Forms
+﻿namespace SadShaR34Downloader.Forms
 {
     partial class MainForm
     {
@@ -173,7 +173,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::R34Downloader.Properties.Resources.settings;
+            this.pictureBox2.Image = global::SadShaR34Downloader.Properties.Resources.settings;
             this.pictureBox2.Location = new System.Drawing.Point(582, 372);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(32, 32);
@@ -184,7 +184,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::R34Downloader.Properties.Resources.header;
+            this.pictureBox1.Image = global::SadShaR34Downloader.Properties.Resources.header;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(624, 250);
@@ -228,7 +228,7 @@
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Rule34.xxx Downloader 1.1.0";
+            this.Text = "SadSha R34 Downloader 1.1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();

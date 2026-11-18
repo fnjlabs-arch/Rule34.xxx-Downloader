@@ -1,8 +1,8 @@
-﻿using R34Downloader.Services;
+﻿using SadShaR34Downloader.Services;
 using System;
 using System.Text.RegularExpressions;
 
-namespace R34Downloader.Models
+namespace SadShaR34Downloader.Models
 {
     /// <summary>
     /// Settings DTO model.
@@ -126,7 +126,7 @@ namespace R34Downloader.Models
 
         /// <summary>
         /// Saves the model to the portable settings file
-        /// (<c>R34Downloader.settings.xml</c> next to the executable).
+        /// (<c>SadShaR34Downloader.settings.xml</c> next to the executable).
         /// </summary>
         public static void Save()
         {

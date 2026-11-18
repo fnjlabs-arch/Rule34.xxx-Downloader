@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8E3441DC-F4B5-44AF-85F2-D9058FD451F2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>R34Downloader</RootNamespace>
-    <AssemblyName>R34Downloader</AssemblyName>
+    <RootNamespace>SadShaR34Downloader</RootNamespace>
+    <AssemblyName>SadShaR34Downloader</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <LangVersion>7.3</LangVersion>
     <Deterministic>true</Deterministic>
@@ -28,10 +28,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <SupportUrl>https://github.com/DaxEleven/Rule34.xxx-Downloader</SupportUrl>
-    <ErrorReportUrl>https://github.com/DaxEleven/Rule34.xxx-Downloader</ErrorReportUrl>
+    <SupportUrl>https://github.com/fnjlabs-arch/Rule34.xxx-Downloader</SupportUrl>
+    <ErrorReportUrl>https://github.com/fnjlabs-arch/Rule34.xxx-Downloader</ErrorReportUrl>
     <TargetCulture>en</TargetCulture>
-    <PublisherName>Dax Eleven</PublisherName>
+    <PublisherName>SadSha</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.1.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
